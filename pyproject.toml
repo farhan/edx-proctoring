@@ -133,17 +133,18 @@ readme = {file = ["README.rst"], content-type = "text/x-rst"}
 exclude = ["tests*", "*.tests", "*.tests.*"]
 
 [tool.setuptools.package-data]
-"*" = [
+"edx_proctoring" = [
     "*.html",
     "*.css",
     "*.js",
     "*.png",
     "*.jpg",
     "*.ico",
-    "*.mo",
-    "*.po",
     "*.mustache",
     "*.handlebars",
+    "conf/locale/**/*.mo",
+    "conf/locale/**/*.po",
+    "conf/locale/config.yaml",
 ]
 
 [tool.semantic_release]
