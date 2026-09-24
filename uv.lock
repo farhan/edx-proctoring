@@ -25,6 +25,7 @@ constraints = [
     { name = "click", specifier = ">=8.0,<9.0" },
     { name = "django", specifier = "<6.0" },
     { name = "django-webpack-loader", specifier = "<1.0.0" },
+    { name = "edx-lint", specifier = "<6.2.0" },
     { name = "elasticsearch", specifier = "<7.14.0" },
     { name = "pip", specifier = "<26.2.1" },
     { name = "social-auth-app-django", specifier = "<6.0.0" },
@@ -907,7 +908,7 @@ resolution-markers = [
     "python_full_version < '3.13'",
 ]
 dependencies = [
-    { name = "django", version = "5.2.17", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'group-14-edx-proctoring-dev' or extra != 'group-14-edx-proctoring-django42' or (extra == 'group-14-edx-proctoring-django42' and extra == 'group-14-edx-proctoring-doc') or (extra == 'group-14-edx-proctoring-django42' and extra == 'group-14-edx-proctoring-quality') or (extra == 'group-14-edx-proctoring-django42' and extra == 'group-14-edx-proctoring-test')" },
+    { name = "django", version = "5.2.17", source = { registry = "https://pypi.org/simple" } },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/8a/2e/b3ce9d449b1ed9f9dd74fb7dfbc5f20860d5f40c2b4b10a2c3eabd8ff579/djangorestframework-3.18.1.tar.gz", hash = "sha256:605d79fa2ec2f02905492e5ea13d903c2d842d0b4c915a57f7bf02ab9f3c91dd", size = 915653, upload-time = "2026-09-07T18:04:08.288Z" }
 wheels = [
@@ -1036,7 +1037,7 @@ wheels = [
 
 [[package]]
 name = "edx-lint"
-version = "6.2.0"
+version = "6.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -1048,9 +1049,9 @@ dependencies = [
     { name = "six" },
     { name = "tomlkit" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/da/e2/20b4782eba5bbbaeb949877666f871912db05fb22cee2eafdbc83566cffc/edx_lint-6.2.0.tar.gz", hash = "sha256:2ce94b0b1235024e7714792442ea674e1bbe2877e7ca2ca970609e74aa73dfdf", size = 55456, upload-time = "2026-08-18T12:40:35.178Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ee/f0/834dcbb9d847d5654c1fc22dad18813eef66046d521e70d3d21be5a8647f/edx_lint-6.1.0.tar.gz", hash = "sha256:f879f55ed0a94222dee69a4361833f7de6b91576256881eeb35afbed2a85dfa2", size = 50843, upload-time = "2026-04-27T14:05:06.491Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cf/f3/72bbb973cb654aa9d8291c438dd02b21ffb3bf2bdc9e653f9ea9048e3b20/edx_lint-6.2.0-py3-none-any.whl", hash = "sha256:0e1491f9a049927e35eb05a0fd33464b4ec912b83e387568e37f4ce5d10acb30", size = 64109, upload-time = "2026-08-18T12:40:34.102Z" },
+    { url = "https://files.pythonhosted.org/packages/7a/3c/dd55e7200bab2b60d993f76cf540b4098e02ce9d300367b395d936d48152/edx_lint-6.1.0-py3-none-any.whl", hash = "sha256:937eeee9c440bf4fbcbdee8553ee11d11a6c675e0834fe43f27174457de7c84a", size = 58548, upload-time = "2026-04-27T14:05:05.167Z" },
 ]
 
 [[package]]
