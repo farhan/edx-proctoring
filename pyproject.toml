@@ -206,7 +206,7 @@ omit = [
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "test_settings"
-addopts = "-rfe --cov=edx_proctoring --cov-report=html -n 3"
+addopts = "-rfe --cov=edx_proctoring --cov-report=html --cov-report=xml -n 3"
 
 [tool.isort]
 indent = "    "
