@@ -1,6 +1,6 @@
 """
 The exam proctoring subsystem for the Open edX platform.
 """
+from importlib.metadata import version
 
-# Be sure to update the version number in edx_proctoring/package.json
-__version__ = '6.0.0'
+__version__ = version("edx-proctoring")
