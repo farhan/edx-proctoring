@@ -139,7 +139,6 @@ where = ["src"]
 ]
 
 [tool.semantic_release]
-version_variables = ["package.json:version"]
 build_command = "pip install build && SETUPTOOLS_SCM_PRETEND_VERSION=$NEW_VERSION python -m build"
 
 [tool.setuptools_scm]
